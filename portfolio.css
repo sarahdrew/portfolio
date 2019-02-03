@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body { 
+    font-size: 20px;
+    color: #081830;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #475E7B;
+  }
+  
+  nav {
+    padding: 1% 0;
+    background-color: #747195;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  
+  header {
+    padding: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #E2351C;
+  }
+  
+  .full-bio{
+    padding: 20px;
+  }
+
+  .short-bio{
+    padding: 15px;
+  }
+
+  .project{
+    padding: 20px;
+  }
+
+  .project-desc{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+  }
+
+  .photo{
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+  }
