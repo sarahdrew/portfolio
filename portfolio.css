@@ -9,6 +9,8 @@
     line-height: 1.5;
     background-color: #475E7B;
   }
+
+  
   
   nav {
     padding: 1% 0;
@@ -20,6 +22,11 @@
     z-index: 10;
   }
   
+  .portrait {
+    height: 25px;
+    width: 100%;
+    display: inline-block;
+  }
   
   header {
     padding: 40px;
@@ -27,6 +34,8 @@
     color: #E2351C;
   }
   
+  
+
   .full-bio{
     padding: 20px;
   }
@@ -44,8 +53,3 @@
     padding: 15px;
   }
 
-  .photo{
-    width: 100%;
-    padding: 15px;
-    display: inline-block;
-  }
