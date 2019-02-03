@@ -8,41 +8,57 @@
     text-align: center;
     line-height: 1.5;
     background-color: #475E7B;
+    font-family: 'Fahkwang', sans-serif;
+    color: white;
   }
 
   
   
   nav {
     padding: 1% 0;
-    background-color: #747195;
+    background-color: #7f7392;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
+    font-family: 'Lato', sans-serif;
   }
   
-  .portrait {
-    height: 25px;
-    width: 100%;
-    display: inline-block;
+ 
+  #purple-portrait{
+    width: 30%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    float: left;
+  }
+  .short-bio{
+    padding: 15px;
+    font-size: 30px;
+    color: #f5c9a7;
+    background-color: rgb(80, 97, 119)
+    
+  }
+
+  .portrait-photo{
+    margin: 15px;
+    padding: 5px;
+    height: 100%;
   }
   
   header {
     padding: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #E2351C;
+    color: #FA8185;
   }
-  
   
 
   .full-bio{
     padding: 20px;
   }
 
-  .short-bio{
-    padding: 15px;
-  }
+ 
 
   .project{
     padding: 20px;
